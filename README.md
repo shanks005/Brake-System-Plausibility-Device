@@ -1,17 +1,18 @@
-T11.6 Brake System Plausibility Device (BSPD)
-The BSPD is a standalone, non-programmable circuit designed to open the shutdown circuit during hard braking events.
+# Brake-System-Plausibility-Device
 
-Functionality:
-[EV ONLY] Opens the shutdown circuit when:
+### T11.6 Brake System Plausibility Device (BSPD)
 
-Power delivered to the motors is ≥ 5 kW.
+The BSPD is a standalone, non-programmable circuit designed to open the shutdown circuit during hard braking events. 
 
-[CV ONLY] Opens the shutdown circuit when:
+#### Functionality:
+- **[EV ONLY]** Opens the shutdown circuit when:
+  - Power delivered to the motors is ≥ 5 kW.
+- **[CV ONLY]** Opens the shutdown circuit when:
+  - Throttle position exceeds 25% over the idle position.
 
-Throttle position exceeds 25% over the idle position.
+![BSPD Circuit Diagram](images/BSPD_Formula_Manipal_Task_img.jpg)
 
-🔧 References:
+🔧 **References:**  
+- [EV6.1 – Shutdown Circuit Regulations](#) (Formula Bharat 2025 Rules Booklet)  
+- [CV4.1 – Shutdown Circuit Regulations](#) (Formula Bharat 2025 Rules Booklet)  
 
-EV6.1 – Shutdown Circuit Regulations (Formula Bharat 2025 Rules Booklet)
-
-CV4.1 – Shutdown Circuit Regulations (Formula Bharat 2025 Rules Booklet).
