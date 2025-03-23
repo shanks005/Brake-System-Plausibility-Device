@@ -10,7 +10,7 @@ The BSPD is a standalone, non-programmable circuit designed to open the shutdown
 - **[CV ONLY]** Opens the shutdown circuit when:
   - Throttle position exceeds 25% over the idle position.
 
-![BSPD Circuit Diagram](images/BSPD_Formula_Manipal_Task_img.png)
+![image alt](images/BSPD_Formula_Manipal_Task_img.png)
 
 🔧 **References:**  
 - [EV6.1 – Shutdown Circuit Regulations](#) (Formula Bharat 2025 Rules Booklet)  
